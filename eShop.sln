@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopsolution.Data", "eShopsolution.Data\eShopsolution.Data.csproj", "{55D959E3-891D-4BB1-B420-6B3A5B253318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShosolution.Application", "eShosolution.Application\eShosolution.Application.csproj", "{736AFCC1-1737-4495-9988-AB92B96B58EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{2FF16D73-492B-46E7-9B74-C9209002C509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FF16D73-492B-46E7-9B74-C9209002C509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FF16D73-492B-46E7-9B74-C9209002C509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D959E3-891D-4BB1-B420-6B3A5B253318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D959E3-891D-4BB1-B420-6B3A5B253318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D959E3-891D-4BB1-B420-6B3A5B253318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D959E3-891D-4BB1-B420-6B3A5B253318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736AFCC1-1737-4495-9988-AB92B96B58EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736AFCC1-1737-4495-9988-AB92B96B58EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736AFCC1-1737-4495-9988-AB92B96B58EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736AFCC1-1737-4495-9988-AB92B96B58EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
