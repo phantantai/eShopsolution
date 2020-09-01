@@ -1,4 +1,5 @@
-﻿using eShopsolution.Data.Entities;
+﻿using eShopsolution.Data.Configurations;
+using eShopsolution.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,13 @@ namespace eShopsolution.Data.EF
         public EShopDbContext(DbContextOptions options): base(options)
         {
 
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new AppConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            //base.OnModelCreating(modelBuilder);
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
