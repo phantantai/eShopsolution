@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "eShopDb": "Server=DESKTOP-745GDER\\SQLEXPRESS;Database=eShopDb;Trusted_Connection=True;"
+  }
+}
